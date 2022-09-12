@@ -1,7 +1,6 @@
 pipeline {
     agent any
     stages {
-
         // Jenkins Stage to Build the Docker Image
         stage('Build Image') {
             // when {
