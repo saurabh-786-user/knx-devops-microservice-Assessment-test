@@ -19,7 +19,7 @@ pipeline {
             steps {
             sh '''
             sudo chmod 666 /var/run/docker.sock
-            cat password.txt | docker login --username saurabhkaremore --password-stdin
+            cat password.txt | docker login --username saurabhkaremore --password-Saurabh@786
             sudo docker push saurabhkaremore/myapp:v1.1
             '''
             }
