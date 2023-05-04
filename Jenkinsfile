@@ -7,7 +7,7 @@ pipeline {
             //     branch 'main'
             // }
             steps {
-            sh "sudo docker build -t saurabhkaremore/myapp:v1.1 ."
+            sh "sudo docker build -t saurabhkaremore/myapp:v1.2 ."
             }
         }
 
